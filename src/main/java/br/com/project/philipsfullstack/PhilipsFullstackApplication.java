@@ -33,7 +33,7 @@ public class PhilipsFullstackApplication {
 				= new OperadorDeCaixa(
 				"Lucas",
 				"123.456.789-00",
-				10000d, endereco2, 50.00);
+				2000d, endereco2, 50.00);
 
 		System.out.println(operadorDeCaixa);
 		System.out.println("-------------");
@@ -44,6 +44,8 @@ public class PhilipsFullstackApplication {
 		gerente.setEndereco(endereco2);
 		gerente.setHorasTrabalhadas(20);
 		gerente.setValorHora(100d);
+		gerente.calculaRemuneracao();
+		gerente.calculaBonificacao(3d);
 		System.out.println(gerente);
 
 

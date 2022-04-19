@@ -7,12 +7,12 @@ public class Gerente extends FuncionarioPJ implements CalculaBonificacao{
     //método que está nela.
     @Override
     public void calculaBonificacao(Double porcentagemBonificacao) {
-        this.valorBonificacao = (super.getValorRemuneracao() + (porcentagemBonificacao/100)) + 100d;
+        this.valorBonificacao = (super.getValorRemuneracao() * (porcentagemBonificacao/100)) + 100d;
     }
 
     @Override
     public String toString() {
-        return "FuncionarioPJ{" +
+        return "Gerente{" +
                 "nome= '" + super.getNome() + '\'' +
                 ", documento= '" + super.getDocumento() + '\'' +
                 ", endereco= " + super.getEndereco().getBairro() +

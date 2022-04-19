@@ -14,6 +14,9 @@ public class Endereco {
     //construtor serve para inicializar o objeto com dados
     //Definição de um construtor com todos os atributos
     //O construtor tbm é um método, onde recebe parametros na inicialização do objeto e setta nos atributos os dados
+    //O construtor serve para que eu poça dar um new em uma nova variável que vai controlar esse objeto, mesmo que
+    // seja vazio(sem implementação)
+    //Ele vai receber os dados e atribuir eles nos parâmetros
     public Endereco(String rua, String complemento, String bairro) {
         this.rua = rua;
         this.complemento = complemento;
