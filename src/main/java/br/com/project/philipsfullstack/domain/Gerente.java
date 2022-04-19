@@ -1,4 +1,4 @@
-package br.com.project.philipsfullstack;
+package br.com.project.philipsfullstack.domain;
 
 public class Gerente extends FuncionarioPJ implements CalculaBonificacao{
     private Double valorBonificacao;

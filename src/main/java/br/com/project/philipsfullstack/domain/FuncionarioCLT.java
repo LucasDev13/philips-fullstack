@@ -1,4 +1,4 @@
-package br.com.project.philipsfullstack;
+package br.com.project.philipsfullstack.domain;
 
 public abstract class FuncionarioCLT {
     //abstract = diz que a classe não pode ser inicializada - não pode ser criado objetos a partir dela, somente a partir

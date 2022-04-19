@@ -1,6 +1,9 @@
-package br.com.project.philipsfullstack;
+package br.com.project.philipsfullstack.domain;
 
-public class OperadorDeCaixa extends FuncionarioCLT{
+import br.com.project.philipsfullstack.domain.Endereco;
+import br.com.project.philipsfullstack.domain.FuncionarioCLT;
+
+public class OperadorDeCaixa extends FuncionarioCLT {
 
     private Double quebraDeCaixa;
 

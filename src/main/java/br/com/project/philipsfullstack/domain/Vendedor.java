@@ -1,6 +1,9 @@
-package br.com.project.philipsfullstack;
+package br.com.project.philipsfullstack.domain;
 
-public class Vendedor extends FuncionarioCLT implements CalculaBonificacao{
+import br.com.project.philipsfullstack.domain.CalculaBonificacao;
+import br.com.project.philipsfullstack.domain.FuncionarioCLT;
+
+public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
     //só de usar esse trecho -> extends FuncionarioCLT - eu consigo fazer herança e vai herdar tudo da classe pai
     private Double valorDaBonificacao;
 

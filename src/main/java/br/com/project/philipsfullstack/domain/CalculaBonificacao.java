@@ -1,4 +1,4 @@
-package br.com.project.philipsfullstack;
+package br.com.project.philipsfullstack.domain;
 
 public interface CalculaBonificacao {
     //A interface teria que ter a palavra "abstract" porque ela não pode ser instanciada como um objeto

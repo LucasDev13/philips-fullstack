@@ -1,5 +1,10 @@
 package br.com.project.philipsfullstack;
 
+import br.com.project.philipsfullstack.domain.Endereco;
+import br.com.project.philipsfullstack.domain.Gerente;
+import br.com.project.philipsfullstack.domain.OperadorDeCaixa;
+import br.com.project.philipsfullstack.domain.Vendedor;
+
 //@SpringBootApplication
 public class PhilipsFullstackApplication {
 
