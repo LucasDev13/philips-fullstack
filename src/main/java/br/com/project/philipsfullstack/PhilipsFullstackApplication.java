@@ -1,8 +1,5 @@
 package br.com.project.philipsfullstack;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 //@SpringBootApplication
 public class PhilipsFullstackApplication {
 
@@ -25,7 +22,8 @@ public class PhilipsFullstackApplication {
 		//e porque tbm o método setNome() está com public na classe FuncionarioCLT
 		vendedor.setNome("Lucas");
 		vendedor.setDocumento("123.456.789-00");
-		vendedor.setValorSalario(10000d);
+		vendedor.setValorSalario(1000d);
+		vendedor.calculaBonificacao(2.0);
 		vendedor.setEndereco(endereco2);
 		System.out.println(vendedor);
 		System.out.println("-------------");
@@ -35,10 +33,22 @@ public class PhilipsFullstackApplication {
 				= new OperadorDeCaixa(
 				"Lucas",
 				"123.456.789-00",
-				10000d, endereco2);
+				10000d, endereco2, 50.00);
 
 		System.out.println(operadorDeCaixa);
-		System.out.printf("-------------");
+		System.out.println("-------------");
+
+		Gerente gerente = new Gerente();
+		gerente.setNome("Lucas");
+		gerente.setDocumento("456.123.789-00");
+		gerente.setEndereco(endereco2);
+		gerente.setHorasTrabalhadas(20);
+		gerente.setValorHora(100d);
+		System.out.println(gerente);
+
+
+
+
 	}
 
 }
